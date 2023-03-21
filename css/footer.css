@@ -1,0 +1,143 @@
+.footer {
+    background-color: var(--footer-bckgr);
+}
+
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__logo {
+    flex-basis: 33.3%;
+    padding: 40px 0;
+    width: 260px;
+    flex-basis: 33%;
+    border-right: 2px solid var(--color-footer);
+}
+
+.footer__contacts {
+    flex-basis: 33.3%;
+    padding: 40px 13px;
+    border-right: 2px solid var(--color-footer);
+}
+
+.footer__tel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tel__text,
+.tel__number,
+.mail__text,
+.footer__mail,
+.insta__link {
+    display: block;
+    font-weight: 300;
+    font-size: 23px;
+    color: var(--color-nav);
+}
+
+.footer__email,
+.footer__inst {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer__email {
+    margin-bottom: 15px;
+}
+
+.footer__tel {
+    margin-bottom: 15px;
+}
+
+.footer__inst {
+    margin-bottom: 80px;
+}
+
+
+.footer__search {
+    padding: 40px 13px;
+    background-color: var(--footer-search);
+    margin-bottom: 30px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.footer__paragraph {
+    color: var(--color-nav);
+    font-size: 18px;
+}
+
+
+.footer__icon {
+    margin-right: 15px;
+}
+
+.footer__form {
+    flex-basis: 33.3%;
+    padding: 40px 15px;
+    border-right: 2px solid var(--color-footer);
+}
+
+
+.footer__input {
+    line-height: initial;
+    width: 80%;
+    border: none;
+    background-color: var(--footer-input);
+    margin-right: 15px;
+}
+
+.footer__btn {
+    width: 30px;
+    height: 30px;
+}
+
+.form__search {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__item {
+    height: 43px;
+    text-align: center;
+    line-height: 43px;
+    vertical-align: middle;
+    background-color: var(--footer-item);
+    margin-right: 2px;
+    margin-bottom: 2px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footer__item:hover {
+    background-color: var(--footer-hover);
+    color: var(--color-nav);
+    text-decoration: underline;
+}
+
+.footer__item:active {
+    background-color: var(--footer-hover);
+    color: var(--color-nav);
+    text-decoration: underline;
+}
+
+.footer__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: var(--color-nav);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.footer__box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__list {
+    flex-basis: 50%;
+}

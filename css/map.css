@@ -1,0 +1,10 @@
+
+.map__container {
+    position: relative;
+}
+
+.map__svg {
+    position: absolute;
+    top: -3px;
+    right: 12px;
+}

@@ -1,0 +1,26 @@
+:root {
+    --color-header: #006633;
+    --color-text: #c6c6c6;
+    --color-nav: #ffffff;
+    --color-advantages: #462d21;
+    --color-footer: #c2a880;
+    --footer-item: #a68148;
+    --footer-hover: #9c773f;
+    --footer-search: #b89a56;
+    --footer-input: #a98949;
+    --nav-bckgr: #a2d000;
+    --nav-border: #bcea1a;
+    --nav--hover: #4da837;
+    --hero-bckgr: rgba(100, 100, 100, 0.5);
+    --lang-bckgr: #e1e1e1;
+    --lang-hover: #006633;
+    --materials-title: grey;
+    --footer-bckgr: #ac874e;
+    --about-bkgr: #56b037;
+    --about-text: #000000;
+    --menu-bckg: #818181;
+    --menu-border: #e8e8e8;
+    --product-bckgr: #b6c943;
+    --product-specific: #ebf1c7;
+
+}

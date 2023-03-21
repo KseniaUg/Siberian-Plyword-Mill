@@ -120,9 +120,9 @@
 }
 
 .production__menu {
-    width: 180px;
+    width: 174px;
     position: absolute;
-    left: -52px;
+    left: -48px;
     bottom: -157px;
     border: 1px solid var(--nav--hover);
     color: var(--color-nav);

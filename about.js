@@ -5,7 +5,7 @@ const swiper = new Swiper('.about-swiper', {
 
     navigation: {
       nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      prevEl: '.about__btn-prev',
     },
 
     scrollbar: {

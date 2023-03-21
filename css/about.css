@@ -87,3 +87,21 @@
 .about-wrapper {
     width: 1200px;
 }
+
+.about-wrapper {
+    position: relative;
+}
+
+.about__btn-prev,
+.about__btn-next {
+    position: absolute;
+    cursor: pointer;
+    color: var(--color-nav);
+    background-color: var(--nav-bckgr);
+    padding: 0 20px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 91%;
+    transition: background-color 0.3s ease-in-out;
+}

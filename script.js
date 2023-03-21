@@ -1,5 +1,5 @@
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.hero-swiper', {
 
     loop: true,
 

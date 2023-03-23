@@ -1,0 +1,138 @@
+.burger {
+  position: relative;
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width:1024px) {
+  .burger {
+    display: block;
+  }
+
+  .nav {
+    position: relative;
+    bottom: -391px;
+    left: -16px;
+    width: 38%;
+    min-width: 250px;
+    height: 100vh;
+    z-index: 100;
+    padding: 35px;
+    padding-left: 23px;
+    padding-right: 89px;
+    box-shadow: 0 0 5px var(--nav-bckgr);
+    background-color: #fff;
+    overflow-y: auto;
+    visibility: hidden;
+    transform: translateX(-120%);
+    transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .nav .nav__list {
+    flex-direction: column;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .nav--active {
+    visibility: visible;
+    transform: none;
+  }
+
+  .nav__input {
+    max-width: 115px;
+  }
+
+  .burger__line {
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
+  }
+
+  .burger--active .burger__line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger--active .burger__line:first-child {
+    left: 12%;
+    top: 50%;
+    transform: rotate(45deg);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
+  }
+
+  .burger--active .burger__line:last-child {
+    bottom: auto;
+    left: 12%;
+    top: 50%;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
+  }
+
+  .stop--sroll {
+    overflow: hidden;
+  }
+
+  .burger__line {
+    position: absolute;
+    left: 17%;
+    width: 30px;
+    height: 5px;
+    background-color: var(--nav-bckgr);
+  }
+
+  .burger__line:first-child {
+    top: 18%;
+  }
+
+  .burger__line:nth-child(2) {
+    top: 46%;
+  }
+
+
+  .burger__line:last-child {
+    bottom: 14%;
+  }
+
+  .hero__box {
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+    max-width: 590px;
+    background-color: var(--hero-bckgr);
+    padding: 10px 200px 30px 15px;
+    left: 42px;
+    top: 858px;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 12px;
+    right: 161px;
+    left: auto;
+    width: 100%;
+    z-index: 5;
+  }
+
+  .hero-button-next {
+    right: 38px;
+  }
+
+
+  .hero-button-prev {
+    right: 77px;
+    left: auto;
+  }
+
+  
+.production__menu {
+  left: 0;
+}
+
+
+}
